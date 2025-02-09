@@ -72,7 +72,7 @@ export const properties = [
                 "Puppetry Arts Center (15 min walk)"
             ]
         },
-        vrboLink: "https://vrbo.com/affiliate/BarbieBeachPad",
+        vrboLink: "https://vrbo.com/affiliates/3806902.f9hbq5v",
         petPolicy: `
         Maximum 2 pets  
         $150 pet fee per pet per stay  
@@ -154,7 +154,7 @@ export const properties = [
                 "Old Town Scottsdale (Short Uber/Lyft ride)"
             ]
         },
-        vrboLink: "https://vrbo.com/affiliate/BarbieBachelorette",
+        vrboLink: "https://vrbo.com/affiliates/2977979.jpfq4s8",
         petPolicy: `
         Maximum 2 pets  
         $150 pet fee per pet per stay  
@@ -237,7 +237,7 @@ export const properties = [
             "Port Aransas Beach (6 min drive)"
         ]
     },
-    vrboLink: "https://vrbo.com/affiliate/BarbiePortA",
+    vrboLink: "https://vrbo.com/affiliates/4139298-dateless.YGG8csg",
     petPolicy: `
     Maximum 2 pets  
     $95 pet fee per pet per stay  
@@ -320,7 +320,7 @@ export const properties = [
             "Camelback Mountain (8 min drive)"
         ]
     },
-    vrboLink: "https://vrbo.com/affiliate/ScottsdollDreamhouse",
+    vrboLink: "https://vrbo.com/affiliates/2703057-dateless.kT7OAd7",
     petPolicy: `
     No pets allowed  
     Service animals permitted  
@@ -401,7 +401,7 @@ export const properties = [
             "Family Kingdom Amusement Park (10 min drive)"
         ]
     },
-    vrboLink: "https://vrbo.com/affiliate/BarbiesBeachHouseOceanLakes",
+    vrboLink: "https://vrbo.com/affiliates/3853181-dateless.xYsBtxL",
     petPolicy: `
     No pets allowed  
     No smoking inside the home  
@@ -481,7 +481,7 @@ export const properties = [
             "Palm Springs Aerial Tramway (10 min drive)"
         ]
     },
-    vrboLink: "https://vrbo.com/affiliate/ThePinkPalomaPalmSprings",
+    vrboLink: "https://vrbo.com/affiliates/3981025-dateless.G2Xkbnf",
     petPolicy: `
     Small dogs allowed (1 pet max) 🐶  
     $75 pet fee per stay  
@@ -561,7 +561,7 @@ export const properties = [
             "Desert Diamond Arena (16-min walk)"
         ]
     },
-    vrboLink: "https://vrbo.com/affiliate/TheDreamHouseHideaway",
+    vrboLink: "https://vrbo.com/affiliates/4037472-dateless.nbKYK9z",
     petPolicy: `
     Dogs under 50 lbs allowed (2 pets max) 🐶  
     $50 per pet, per stay  
@@ -640,7 +640,7 @@ export const properties = [
             "Surrounded by Top Restaurants & Bars"
         ]
     },
-    vrboLink: "https://vrbo.com/affiliate/BarbieCondoChattanooga",
+    vrboLink: "https://vrbo.com/affiliates/3924239-dateless.qcRpqge",
     petPolicy: `
     🚫 No Pets Allowed  
     🚭 No Smoking Indoors  
@@ -719,7 +719,7 @@ export const properties = [
             "Alys Beach & Rosemary Beach (10-min drive)"
         ]
     },
-    vrboLink: "https://vrbo.com/affiliate/BarbiesBeachHouse30A",
+    vrboLink: "https://vrbo.com/affiliates/399504-dateless.PidIUJE",
     petPolicy: `
     🚫 No Pets Allowed  
     🚭 No Smoking Indoors  
