@@ -19,7 +19,7 @@ export const PropertyCard = ({ property }) => {
     return (
       <div 
         onClick={handleClick}
-        className="bg-white rounded-lg shadow-lg overflow-hidden cursor-pointer hover:shadow-xl transition-shadow duration-300"
+        className="bg-white rounded-3xl shadow-lg overflow-hidden cursor-pointer hover:shadow-xl transition-shadow duration-300 border-2 border-pink-200"
       >
         <img 
           src={images[0].url} 
@@ -27,15 +27,15 @@ export const PropertyCard = ({ property }) => {
           className="w-full h-64 object-cover"
         />
         <div className="p-6">
-          <h2 className="text-2xl font-bold mb-2">{title}</h2>
+          <h2 className="text-2xl font-bold mb-2 text-pink-600">{title}</h2>
           <p className="text-gray-600 mb-4">{shortDescription}</p>
-          <p className="text-xl font-bold text-blue-900 mb-4">{price}</p>
+          <p className="text-xl font-bold text-pink-500 mb-4">{price}</p>
           
-          <h3 className="font-semibold mb-2">Amenities:</h3>
+          <h3 className="font-semibold mb-2 text-pink-600">Amenities:</h3>
           <ul className="mb-4">
             {amenities.slice(0, 4).map((amenity, index) => (
               <li key={index} className="flex items-center mb-1">
-                <span className="text-green-500 mr-2">✓</span>
+                <span className="text-pink-400 mr-2">★</span>
                 {amenity}
               </li>
             ))}
@@ -45,9 +45,9 @@ export const PropertyCard = ({ property }) => {
             href={vrboLink} 
             target="_blank" 
             rel="noopener noreferrer"
-            className="block w-full bg-blue-600 text-white text-center py-2 rounded hover:bg-blue-700"
+            className="block w-full bg-pink-500 text-white text-center py-2 rounded-full hover:bg-pink-600"
           >
-            Check Availability
+            Book Now
           </a>
         </div>
       </div>

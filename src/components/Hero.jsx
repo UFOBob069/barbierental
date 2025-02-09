@@ -15,20 +15,19 @@ export const Hero = () => {
       {/* Content */}
       <div className="container mx-auto px-4 relative z-10 h-full flex flex-col justify-center">
         <h1 className="text-5xl md:text-6xl font-bold mb-6 leading-tight">
-          Top Dog-Friendly <br />
-          <span className="text-blue-300">Vacation Rentals in Destin</span>
+          Barbie&apos;s Beach <br />
+          <span className="text-pink-300">Dream Rentals</span>
         </h1>
         <p className="text-xl md:text-2xl max-w-2xl leading-relaxed mb-8">
-          Discover perfect beachfront properties where your pets are welcome. 
-          Create unforgettable memories with your furry friends.
+          Live your dream vacation in style! Perfect beachfront properties for the ultimate getaway.
         </p>
         <button 
           onClick={() => {
             document.getElementById('property-1').scrollIntoView({ behavior: 'smooth' });
           }}
-          className="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-3 px-8 rounded-lg transition duration-300 transform hover:scale-105 w-fit"
+          className="bg-pink-500 hover:bg-pink-600 text-white font-semibold py-3 px-8 rounded-full transition duration-300 transform hover:scale-105 w-fit"
         >
-          Find Your Perfect Stay
+          Find Your Dream Stay
         </button>
       </div>
     </div>

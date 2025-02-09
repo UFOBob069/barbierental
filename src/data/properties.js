@@ -1,763 +1,732 @@
 // data/properties.js
 export const properties = [
     {
-      id: 1,
-      rank: 1,
-      rating: 5,
-reviews: 107,
-title: "Blue Coconut: Private Pool, 6-Seater Golf Cart, Steps to Beach",
-description: `
-    Blue Coconut is a luxury, high-end home with upscale furnishings and finishes. This stunning 8-bedroom, 7-bath home is located in the Crystal Beach neighborhood of Destin, FL, and sleeps up to 28 guests. 
-    
-    Enjoy an amazing backyard oasis complete with a private pool, large balconies, and a complimentary 6-passenger street-legal golf cart. The home is located just one block away from the beach, with a beach access gate right at the end of the street. With 10-foot ceilings on the first floor and vaulted ceilings on the second floor, the open-concept layout adds to its luxurious feel. 
-    
-    Nearby, you will find restaurants, a gas station, Destin Commons shopping mall, a Publix, Walgreens Pharmacy, and more, all within one mile.
-`,
-shortDescription: "Luxury 8-bedroom home with private pool, golf cart, and steps from the beach, perfect for large groups.",
-price: "From $399/night",
-bedrooms: 8,
-bathrooms: 7,
-sqft: 3600,
-maxGuests: 28,
-maxPets: 2,
-petFee: "$150 per pet per stay",
-amenities: [
-    "Private Pool with Heating Options",
-    "6-Seater Golf Cart Included",
-    "High-Speed WiFi",
-    "Fully-Stocked Kitchen",
-    "6 King Suites",
-    "2 Dedicated Bunk Rooms",
-    "Large Balconies (Front & Back)",
-    "Propane/Gas Grill",
-    "Iron and Ironing Board",
-    "Pack-n-Play Available",
-    "Short Distance to the Beach",
-    "Large Driveway Fits 6 Cars"
-],
-images: [
-    {
-        url: "/images/property1-main.jpg",
-        alt: "Luxury home exterior with private pool and golf cart"
+        id: 1,
+        rank: 1,
+        rating: 5,
+        reviews: 107,
+        title: "Barbie Beach Pad: Walk Everywhere, Heated Pool, Luxe Getaway",
+     description: `
+    💖 **Live the Barbie Dream in Delray Beach!**  
+    Welcome to **Barbie Beach Pad**, a **luxury pink paradise** just steps from **Atlantic Avenue** and the **beach**. This **4-bedroom, 4-bathroom** home **sleeps 10 guests** and offers a **heated pool, stylish Barbie-inspired interiors, and ultimate comfort** for bachelorette parties, family getaways, or girls' trips.  
+
+    🌊 **Prime Location & Outdoor Fun**  
+    - Walk to **beach, dining, and nightlife**  
+    - **Private Heated Pool & Lounge** Area  
+    - **Fully Equipped Kitchen & Modern Living Spaces**  
+
+    ✨ **Why You'll Love It**  
+    - Glamorous **Barbiecore decor**  
+    - **Pet-Friendly** (Approval Required)  
+    - Spacious bedrooms & luxury finishes  
+
+    Book your **Barbie-inspired getaway** today and **make unforgettable memories in Delray Beach!** 🌸💕  
+    `,
+        shortDescription: "Glamorous 4-bedroom Barbie Beach Pad with heated pool, walkable to nightlife, dining, and beach—perfect for girls' getaways and luxury retreats.",
+        price: "From $399/night",
+        bedrooms: 4,
+        bathrooms: 4,
+        sqft: 2500,
+        maxGuests: 10,
+        maxPets: 2,
+        petFee: "$150 per pet per stay",
+        amenities: [
+            "Private Heated Pool",
+            "Walkable to Beach & Nightlife",
+            "High-Speed WiFi",
+            "Fully-Stocked Kitchen",
+            "Luxury Barbie-Themed Interiors",
+            "Spacious Living & Dining Areas",
+            "Pet-Friendly (Approval Required)",
+            "Smart TVs in Every Room",
+            "Outdoor Dining & Lounge Space",
+            "Iron and Ironing Board",
+            "Pack-n-Play Available",
+            "Designer Bathrooms with Luxury Finishes"
+        ],
+        images: [
+            {
+                url: "/images/property1-main.jpg",
+                alt: "Barbie Beach Pad exterior with private heated pool and pink decor"
+            },
+            {
+                url: "/images/barbie-beach-pad-pool.jpg",
+                alt: "Vibrant backyard with heated pool, lounge chairs, and tropical landscaping"
+            },
+            {
+                url: "/images/barbie-beach-pad-living.jpg",
+                alt: "Chic pink-themed living area with modern furnishings"
+            },
+            {
+                url: "/images/barbie-beach-pad-bedroom.jpg",
+                alt: "Glamorous Barbie-themed bedroom with luxurious bedding"
+            }
+        ],
+        location: {
+            area: "Delray Beach, FL",
+            walkToBeach: "12 min walk",
+            nearbyAttractions: [
+                "Atlantic Avenue (12 min walk)",
+                "Veterans Park (11 min walk)",
+                "Delray Public Beach (Short drive)",
+                "Puppetry Arts Center (15 min walk)"
+            ]
+        },
+        vrboLink: "https://vrbo.com/affiliate/BarbieBeachPad",
+        petPolicy: `
+        Maximum 2 pets  
+        $150 pet fee per pet per stay  
+        Must be approved (submit weight, breed, and age for approval)  
+        Pets must be house-trained  
+        Current vaccination records required  
+        `,
     },
+    
     {
-        url: "/images/property1-yard.jpg",
-        alt: "Spacious tropical backyard with pool and hammocks"
+        id: 2,
+        rank: 2,
+        rating: 5,
+        reviews: 17,
+        title: "Barbie’s Bachelorette Dream House | Hot Tub | Pool | Scottsdale",
+        description: `
+    💖 **Scottsdale’s Ultimate Barbie Bachelorette House!**  
+    Get ready to **celebrate in style** at **Barbie’s Bachelorette Dream House**, a **5-bedroom, 3-bathroom** pink paradise **sleeps 12 guests** and features a **heated pool, hot tub, and Insta-worthy decor**—perfect for bachelorette parties, girls’ weekends, and birthday getaways!  
+
+    🎉 **Unbeatable Location & Luxe Amenities**  
+    - Minutes to **Old Town Scottsdale nightlife**  
+    - **Private Heated Pool, Hot Tub & Lounge**  
+    - **Fully Stocked Kitchen & Entertainment Areas**  
+
+    ✨ **Why You’ll Love It**  
+    - Chic **Barbie-themed interiors**  
+    - **Pet-Friendly** (Approval Required)  
+    - Spacious, modern, and ultra-glam!  
+
+    Book your **Barbiecore getaway** now and experience **Scottsdale’s hottest bachelorette destination!** 🎀🏡  
+    `,
+        shortDescription: "Glamorous 5-bedroom Barbie DreamHouse in Scottsdale with heated pool, hot tub, pink-themed interiors, and walkable access to top attractions.",
+        price: "From $499/night",
+        bedrooms: 5,
+        bathrooms: 3,
+        sqft: 3000,
+        maxGuests: 12,
+        maxPets: 2,
+        petFee: "$150 per pet per stay",
+        amenities: [
+            "Private Heated Pool & Hot Tub",
+            "Resort-Style Outdoor Lounge",
+            "High-Speed WiFi",
+            "Fully-Stocked Kitchen & Bar Area",
+            "Luxury Barbie-Inspired Interiors",
+            "Spacious Living & Dining Areas",
+            "Pet-Friendly (Approval Required)",
+            "Smart TVs in Every Room",
+            "Outdoor Dining & BBQ Space",
+            "Iron and Ironing Board",
+            "Pack-n-Play Available",
+            "Minutes from Old Town Scottsdale Nightlife"
+        ],
+        images: [
+            {
+                url: "/images/property2-main.jpg",
+                alt: "Barbie’s Bachelorette Dream House exterior with private pool and pink decor"
+            },
+            {
+                url: "/images/barbie-bachelorette-pool.jpg",
+                alt: "Resort-style backyard with private heated pool, hot tub, and lounge chairs"
+            },
+            {
+                url: "/images/barbie-bachelorette-living.jpg",
+                alt: "Chic pink-themed living area with modern furnishings"
+            },
+            {
+                url: "/images/barbie-bachelorette-bedroom.jpg",
+                alt: "Glamorous Barbie-themed bedroom with luxury bedding"
+            }
+        ],
+        location: {
+            area: "Scottsdale, AZ",
+            walkToBeach: "N/A",
+            nearbyAttractions: [
+                "Papago Park (17 min walk)",
+                "Desert Botanical Garden (18 min walk)",
+                "Scottsdale Stadium (3 min drive)",
+                "Old Town Scottsdale (Short Uber/Lyft ride)"
+            ]
+        },
+        vrboLink: "https://vrbo.com/affiliate/BarbieBachelorette",
+        petPolicy: `
+        Maximum 2 pets  
+        $150 pet fee per pet per stay  
+        Must be approved (submit weight, breed, and age for approval)  
+        Pets must be house-trained  
+        Current vaccination records required  
+        `,
     }
-],
-location: {
-    area: "Crystal Beach, Destin, FL",
-    walkToBeach: "1-2 Blocks",
-    nearbyAttractions: [
-        "Miramar Beach (7 min walk)",
-        "James Lee Beach (8 min walk)",
-        "Destin Commons (13 min walk)"
-    ]
-},
-vrboLink: "https://vrbo.com/affiliate/IElEq1T",
-petPolicy: `
-    Maximum 2 pets
-    $150 pet fee per pet per stay
-    Must be approved (submit weight, breed, and age for approval)
-    Pets must be house-trained
-    Current vaccination records required
-`
+,    
+{
+    id: 3,
+    rank: 3,
+    rating: 5,
+    reviews: 32,
+    title: "Barbie’s Port A Beach House | Bay Views | Patio & Grill",
+    description: `
+    💖 **Barbie's Beach Getaway in Port Aransas!**  
+    Welcome to **Barbie’s Port A Beach House**, a **charming 4-bedroom, 2-bathroom retreat** that sleeps **13 guests**. This **pink paradise** is designed for fun, featuring **retro Barbiecore decor, a spacious patio with bay views, and a dreamy beachside vibe**—perfect for families, groups, and girls’ getaways!  
+
+    🌊 **Perfect Location & Outdoor Fun**  
+    - **3 min drive** to Mustang Island Beach  
+    - **4 min drive** to Palmilla Beach Golf Club  
+    - **Large Patio w/ Grill, Hammock & Swings**  
+    - **Barbie Photo Booth** for Insta-worthy moments  
+
+    ✨ **Why You’ll Love It**  
+    - **Fully Equipped Retro Kitchen**  
+    - **Comfortable, Stylish Bedrooms**  
+    - **Pet-Friendly** (Approval Required)  
+
+    Experience **the ultimate Port Aransas getaway** in this **whimsical and fun-filled beach retreat**. Book now and **make Barbie-worthy beach memories!** 🏖️💕  
+    `,
+    shortDescription: "Charming 4-bedroom Barbie Beach House in Port Aransas with bay views, patio, grill, and vibrant Barbiecore decor—perfect for families and group getaways!",
+    price: "From $349/night",
+    bedrooms: 4,
+    bathrooms: 2,
+    sqft: 1401,
+    maxGuests: 13,
+    maxPets: 2,
+    petFee: "$95 per pet per stay",
+    amenities: [
+        "Spacious Patio with Bay Views",
+        "Barbie-Themed Interiors",
+        "Fully-Stocked Retro Kitchen",
+        "Outdoor TV & Lounge Area",
+        "Gas Grill & Outdoor Dining Space",
+        "Hammock & Swings",
+        "Barbie Photo Booth",
+        "High-Speed WiFi",
+        "Washer & Dryer",
+        "Pet-Friendly (Approval Required)",
+        "Short Drive to Mustang Island Beach",
+        "Parking for 4 Vehicles"
+    ],
+    images: [
+        {
+            url: "/images/property3-main.jpg",
+            alt: "Barbie’s Port A Beach House exterior with patio and bay views"
+        },
+        {
+            url: "/images/barbie-port-a-patio.jpg",
+            alt: "Spacious outdoor patio with lounge chairs, hammock, and swings"
+        },
+        {
+            url: "/images/barbie-port-a-kitchen.jpg",
+            alt: "Retro Barbie-inspired kitchen with white glossy appliances"
+        },
+        {
+            url: "/images/barbie-port-a-bedroom.jpg",
+            alt: "Chic and cozy Barbie-themed bedroom with soft pink decor"
+        }
+    ],
+    location: {
+        area: "Port Aransas, TX",
+        walkToBeach: "N/A",
+        nearbyAttractions: [
+            "Mustang Island Beach (3 min drive)",
+            "Palmilla Beach Golf Club (4 min drive)",
+            "Holiday Beach (10 min drive)",
+            "Port Aransas Beach (6 min drive)"
+        ]
     },
-    {
-      id: 2,
-      rank: 2,
-      rating: 5,
-reviews: 27,
-title: "HUGE Luxury Home! Private Pool - Block to Beach - GameRoom - Rooftop Deck",
-description: `
-    DESTIN PARADISE is a luxurious, recently updated 6-bedroom, 6.5-bath home in the Crystal Beach neighborhood of Destin, FL. This spacious 4000 sq. ft. home accommodates up to 16 guests and features a private heated pool, a rooftop deck, and a game room. 
-    
-    Just a short 3-minute walk to the beach, this home offers a perfect blend of comfort and convenience. With 5 king beds and a dedicated bunk room, it's ideal for large families or groups. 
-    
-    Enjoy nearby shopping, restaurants, and entertainment, all within minutes of the home, including Destin Commons, Destin Harbor, and Crab Island.
-`,
-shortDescription: "Luxury 6-bedroom home with private pool, rooftop deck, and game room, just steps from the beach.",
-price: "From $530/night",
-bedrooms: 6,
-bathrooms: 6.5,
-sqft: 4000,
-maxGuests: 16,
-maxPets: 2,
-petFee: "$150 per pet per stay",
-amenities: [
-    "Private Heated Pool",
-    "Rooftop Deck",
-    "Game Room with Foosball & Arcade",
-    "5 King Beds & Bunk Room",
-    "High-Speed WiFi",
-    "Fully-Stocked Kitchen",
-    "Outdoor Dining Area",
-    "BBQ Grill",
-    "Laundry Room with Full-Sized Washer/Dryer",
-    "Beach Chairs & Towels Provided",
-    "Short Distance to the Beach",
-    "Large Driveway Fits 4 Cars"
-],
-images: [
-    {
-        url: "/images/property2-main.jpg",
-        alt: "Luxury home exterior with private pool and rooftop deck"
-    },
-    {
-        url: "/images/property2-yard.jpg",
-        alt: "Spacious backyard with pool and lounge chairs"
-    }
-],
-location: {
-    area: "Crystal Beach, Destin, FL",
-    walkToBeach: "3 Minutes",
-    nearbyAttractions: [
-        "Miramar Beach (3 min walk)",
-        "Shore at Crystal Beach Park (9 min walk)",
-        "Destin Commons (13 min walk)"
-    ]
-},
-vrboLink: "https://vrbo.com/affiliate/JzbBBYJ",
-petPolicy: `
-    Maximum 2 dogs under 50 lbs
-    $150 pet fee per pet per stay
-    Must be approved (submit weight, breed, and age for approval)
-    Pets must be house-trained
-    Current vaccination records required
-`
-    }
-    ,
-    {
-      id: 3,
-      rank: 3,
-      rating: 5,
-reviews: 61,
-title: "Across Beach, Pool, Pool Table, Ping Pong, Golf Cart Rental, Amazing Yard, 7 BR",
-description: `
-    Escape to 'Emerald Oasis' - a stunning 7-bedroom, 5.5-bath luxury beach home located across the street from the Gulf of Mexico. This spacious 3006 sq. ft. home accommodates up to 18 guests and features a private heated pool, cabana house, and a fantastic outdoor entertainment area.
-    
-    Just a short 2-minute walk to the beach, this home is perfect for large families or groups. It offers an outdoor pool table, ping pong table, foosball table, cornhole, a fire pit, and plenty of seating. 
-    
-    Conveniently located within walking distance to restaurants, shopping, and coffee shops, it provides everything needed for a relaxing beach vacation.
-`,
-shortDescription: "Luxury 7-bedroom home with private pool, game area, and steps from the beach.",
-price: "From $378/night",
-bedrooms: 7,
-bathrooms: 5.5,
-sqft: 3006,
-maxGuests: 18,
-maxPets: 1,
-petFee: "$150 per pet per stay",
-amenities: [
-    "Private Heated Pool",
-    "Pool Table, Ping Pong, & Foosball",
-    "Golf Cart Rental Available",
-    "High-Speed WiFi",
-    "Fully-Stocked Kitchen with 3 Refrigerators",
-    "Outdoor Fire Pit & BBQ Grill",
-    "Laundry Room with Full-Sized Washer/Dryer",
-    "Beach Chairs, Umbrella & Wagon Provided",
-    "Short Distance to the Beach",
-    "Spacious Outdoor Seating & Dining Area",
-    "Large Driveway Fits 4 Cars"
-],
-images: [
-    {
-        url: "/images/property3-main.jpg",
-        alt: "Luxury home exterior with private pool and entertainment area"
-    },
-    {
-        url: "/images/property3-yard.jpg",
-        alt: "Spacious backyard with pool, outdoor seating, and games"
-    }
-],
-location: {
-    area: "Crystal Beach, Destin, FL",
-    walkToBeach: "2 Minutes",
-    nearbyAttractions: [
-        "Shore at Crystal Beach Park (2 min walk)",
-        "Miramar Beach (2 min walk)",
-        "Henderson Beach State Park (5 min walk)"
-    ]
-},
-vrboLink: "https://vrbo.com/affiliates/2201893-dateless.BqizMBw",
-petPolicy: `
-    Maximum 1 dog under 50 lbs
-    $150 pet fee per pet per stay
-    Must be approved (submit weight, breed, and age for approval)
-    Pets must be house-trained
-    Current vaccination records required
-`
-    }
-    ,
-    {
-      id: 4,
-      rank: 4,
-      rating: 5,
-      reviews: 85,
-      title: "Quiet Family Neighborhood | Resort Pool | Golf Cart Free",
-      description: `
-          Welcome to Paradise in Destiny – a stunning lakefront 4-bedroom, 3-bath luxury home located in one of Destin’s most exclusive neighborhoods. This spacious 2955 sq. ft. home accommodates up to 10 guests and offers breathtaking views of Destin Lake, high-end finishes, and resort-style amenities.
-          
-          Enjoy access to the Destiny Yacht Clubhouse with a heated pool, hot tub, fitness center, and tennis courts. A complimentary golf cart makes beach trips effortless. 
-          
-          Conveniently located near top-rated restaurants, shopping, and outdoor activities, this home is perfect for families or groups seeking relaxation and adventure.
-      `,
-      shortDescription: "Luxury 4-bedroom home with resort pool, lakefront views, and complimentary golf cart.",
-      price: "From $507/night",
-      bedrooms: 4,
-      bathrooms: 3,
-      sqft: 2955,
-      maxGuests: 10,
-      maxPets: 2,
-      petFee: "$150 per pet per stay",
-      amenities: [
-          "Lakefront Views",
-          "Resort Pool & Hot Tub",
-          "Complimentary Golf Cart",
-          "High-Speed WiFi",
-          "Fully-Stocked Kitchen with Wet Bar",
-          "Foosball Table",
-          "Laundry Room with Full-Sized Washer/Dryer",
-          "Beach Chairs & Toys Provided",
-          "Spacious Outdoor Seating & Dining Area",
-          "Access to Fitness Center & Tennis Courts",
-          "Large Driveway Fits Multiple Cars"
-      ],
-      images: [
-          {
-              url: "/images/property4-main.jpg",
-              alt: "Luxury home exterior with lakefront views and golf cart"
-          },
-          {
-              url: "/images/property4-yard.jpg",
-              alt: "Spacious backyard with outdoor seating and fire pit"
-          }
-      ],
-      location: {
-          area: "Destiny, Destin, FL",
-          walkToBeach: "19 Minutes",
-          nearbyAttractions: [
-              "James Lee Park (19 min walk)",
-              "Miramar Beach (19 min walk)",
-              "James Lee Beach (9 min drive)"
-          ]
-      },
-      vrboLink: "https://vrbo.com/affiliates/1822563-dateless.lBcrlyA",
-      petPolicy: `
-          Maximum 2 dogs
-          $150 pet fee per pet per stay
-          Must be approved (submit weight, breed, and age for approval)
-          Pets must be house-trained
-          Current vaccination records required
-      `      
-    }
-    ,
-    {
-      id: 5,
-      rank: 5,
-      rating: 10,
-      reviews: 74,
-      title: "FALL & HOLIDAYS Available! 5 bdrm, 4 bath - Private Pool, Lounge&Dining Area",
-      description: `
-          DEJA BLUE is a beautifully designed 5-bedroom, 4-bath home with a private pool, outdoor lounge, and dining area located in Crystal Beach, Destin, FL. This 2242 sq. ft. home comfortably sleeps up to 16 guests and is perfect for family vacations or group getaways.
-          
-          Just a 4-minute walk to the beach, this home is designed for relaxation with multiple outdoor areas, a rooftop patio, and a fully stocked kitchen. Enjoy modern entertainment options, including Roku, Hulu, and YouTube TV, along with a selection of board games for family fun.
-          
-          Nearby shopping, dining, and entertainment make this an ideal spot for a memorable beach getaway.
-      `,
-      shortDescription: "Luxury 5-bedroom home with private pool, outdoor lounge, and dining area near the beach.",
-      price: "From $613/night",
-      bedrooms: 5,
-      bathrooms: 4,
-      sqft: 2242,
-      maxGuests: 16,
-      maxPets: 1,
-      petFee: "$150 per pet per stay",
-      amenities: [
-          "Private Heated Pool",
-          "Outdoor Lounge & Dining Area",
-          "Rooftop Patio",
-          "High-Speed WiFi",
-          "Fully-Stocked Kitchen",
-          "Laundry Room with Full-Sized Washer/Dryer",
-          "Beach Chairs, Cart & Toys Provided",
-          "Board Games & Entertainment",
-          "Smart TVs with Streaming Services",
-          "Close to Shopping & Dining",
-          "Large Driveway Fits Multiple Cars"
-      ],
-      images: [
-          {
-              url: "/images/property5-main.jpg",
-              alt: "Luxury home exterior with private pool and outdoor lounge area"
-          },
-          {
-              url: "/images/property5-yard.jpg",
-              alt: "Spacious backyard with pool and covered seating"
-          }
-      ],
-      location: {
-          area: "Crystal Beach, Destin, FL",
-          walkToBeach: "4 Minutes",
-          nearbyAttractions: [
-              "Shore at Crystal Beach Park (4 min walk)",
-              "Miramar Beach (4 min walk)",
-              "Destin Commons (10 min walk)"
-          ]
-      },
-      vrboLink: "https://vrbo.com/affiliates/1037133-dateless.7hYBaVA",
-      petPolicy: `
-          Maximum 1 dog
-          $150 pet fee per pet per stay
-          Must be approved (submit weight, breed, and age for approval)
-          Pets must be house-trained
-          Current vaccination records required
-      `      
-    }
-    ,
-    {
-      id: 6,
-      rank: 6,
-      rating: 4.8,
-reviews: 70,
-title: "ADORABLE DESTIN BEACH COTTAGE! 1 min walk to beach! Gulf View! Private Pool!",
-description: `
-    This charming 3-bedroom, 3-bath Destin beach cottage is perfect for a relaxing getaway. Located just a 1-minute walk from the beach, this 2100 sq. ft. home offers stunning Gulf views, a private pool, and access to a community pool across the street.
-    
-    Situated in the family-friendly Crystal Beach neighborhood, this home features spacious outdoor living areas, a charcoal grill, and a well-equipped kitchen. Enjoy nearby shopping, restaurants, and entertainment, making it an ideal destination for a beach vacation.
-`,
-shortDescription: "Charming 3-bedroom beach cottage with Gulf views, private pool, and 1-minute walk to the beach.",
-price: "From $312/night",
-bedrooms: 3,
-bathrooms: 3,
-sqft: 2100,
-maxGuests: 8,
-maxPets: 1,
-petFee: "$150 per pet per stay",
-amenities: [
-    "Private Pool",
-    "Gulf View",
-    "Community Pool Access",
-    "High-Speed WiFi",
-    "Fully-Stocked Kitchen",
-    "Laundry Room with Washer/Dryer",
-    "Charcoal Grill",
-    "Beach Chairs & Toys Provided",
-    "Spacious Outdoor Seating & Dining Area",
-    "Close to Shopping & Restaurants",
-    "Parking for 2 Cars"
-],
-images: [
-    {
-        url: "/images/property6-main.jpg",
-        alt: "Charming beach cottage exterior with private pool and Gulf view"
-    },
-    {
-        url: "/images/property6-yard.jpg",
-        alt: "Spacious backyard with pool and outdoor seating"
-    }
-],
-location: {
-    area: "Crystal Beach, Destin, FL",
-    walkToBeach: "1 Minute",
-    nearbyAttractions: [
-        "Shore at Crystal Beach Park (2 min walk)",
-        "Miramar Beach (2 min walk)",
-        "Henderson Beach State Park (9 min walk)"
-    ]
-},
-vrboLink: "https://vrbo.com/affiliates/1938195-dateless.SvsrI1R",
-petPolicy: `
-    Maximum 1 dog
-    $150 pet fee per pet per stay
-    Must be approved (submit weight, breed, and age for approval)
-    Pets must be house-trained
-    Current vaccination records required
-`
-
-    }
-
-    ,
-    {
-      id: 7,
-      rank: 7,
-      rating: 4.9,
-reviews: 68,
-title: "Harborside by AvantStay | Expansive Destin Retreat",
-description: `
-    Experience luxury at Harborside, an expansive 7-bedroom, 7.5-bath retreat on the Destin Harbor. With 4,703 sq. ft. of living space, this home is perfect for large groups and families. Enjoy the private pool, multiple outdoor lounging areas, and unbeatable water views. 
-    
-    This home features two spacious living rooms, a modern fully-stocked kitchen, and ensuite bathrooms for every bedroom. The lower level boasts a ping pong table for added entertainment, while the upper patio includes a BBQ grill and outdoor dining area. 
-    
-    Located just a 4-minute walk from Destin Beach, you’ll have access to world-class dining, shopping, and entertainment. A golf cart rental is available for added convenience. 
-`,
-shortDescription: "Expansive 7-bedroom harborfront retreat with private pool and multiple patios.",
-price: "From $624/night",
-bedrooms: 7,
-bathrooms: 7.5,
-sqft: 4703,
-maxGuests: 18,
-maxPets: 2,
-petFee: "$150 per pet per stay",
-amenities: [
-    "Private Pool",
-    "Harbor Views",
-    "Outdoor Dining & BBQ Grill",
-    "Two Spacious Living Rooms",
-    "Fully-Stocked Modern Kitchen",
-    "Laundry Room with Washer/Dryer",
-    "Ping Pong Table",
-    "Beach Gear Rental Credit Included",
-    "Golf Cart Rental Available",
-    "Parking for 8 Cars"
-],
-images: [
-    {
-        url: "/images/property7-main.jpg",
-        alt: "Luxury harborfront home with private pool and spacious patios"
-    },
-    {
-        url: "/images/property7-patio.jpg",
-        alt: "Outdoor seating area with harbor views"
-    }
-],
-location: {
-    area: "Destin Harbor, Destin, FL",
-    walkToBeach: "4 Minutes",
-    nearbyAttractions: [
-        "Destin Harbor (1 min walk)",
-        "Big Kahuna’s Water Park (3 min drive)",
-        "Destin Commons Shopping (10 min drive)"
-    ]
-},
-vrboLink: "https://vrbo.com/affiliates/3248080-dateless.bOqiSHM",
-petPolicy: `
-    Maximum 2 dogs
-    $150 pet fee per pet per stay
-    Must be approved (submit weight, breed, and age for approval)
-    Pets must be house-trained
-    Current vaccination records required
-`
-
-
-    }
-
-    ,
-    {
-      id: 8,
-      rank: 8,
-      rating: 5,
-      reviews: 63,
-      title: "Fully Loaded! Stroll to Beach, Perfect Location",
-      description: `
-          Welcome to The Crystal Canary, a fully-loaded 4-bedroom, 3.5-bath vacation paradise in the gated Villages of Crystal Beach. This home is perfect for extended families, offering comfort, convenience, and proximity to Destin’s best attractions.
-          
-          Located just a short 10-minute stroll or a seasonal trolley ride to the pristine white sand beaches, this home is packed with thoughtful amenities. Enjoy the chef’s kitchen, two King master suites, and a kid-friendly bunk room. The resort-style pool with waterfalls and a hot tub is just steps from the front door.
-          
-          Families will love the included beach gear, baby essentials, and dog-friendly accommodations. With shopping, dining, and entertainment just minutes away, this is the ultimate Destin retreat!
-      `,
-      shortDescription: "Spacious 4-bedroom home with resort-style pool, near beach & shopping.",
-      price: "From $507/night",
-      bedrooms: 4,
-      bathrooms: 3.5,
-      sqft: 2040,
-      maxGuests: 12,
-      maxPets: 1,
-      petFee: "$200 per pet per stay",
-      amenities: [
-          "Resort-Style Heated Pool & Hot Tub",
-          "Chef’s Kitchen",
-          "Two King Master Suites",
-          "Kid-Friendly Bunk Room",
-          "Beach Gear Included (Chairs, Umbrellas, Wagon, Cooler)",
-          "Baby & Toddler Essentials Provided",
-          "Smart TVs in Every Room",
-          "Full-Size Washer/Dryer",
-          "Gated Community with Free Seasonal Trolley to Beach",
-          "Parking for 2 Cars"
-      ],
-      images: [
-          {
-              url: "/images/property8-main.jpg",
-              alt: "Spacious home with resort-style pool near Destin beach"
-          },
-          {
-              url: "/images/property-crystalcanary-living.jpg",
-              alt: "Cozy living area with plush seating and Smart TV"
-          }
-      ],
-      location: {
-          area: "Villages of Crystal Beach, Destin, FL",
-          walkToBeach: "10 Minutes",
-          nearbyAttractions: [
-              "Destin Commons (7 min walk)",
-              "Big Kahuna’s Water Park (9 min drive)",
-              "Henderson Beach State Park (5 min drive)"
-          ]
-      },
-      vrboLink: "https://vrbo.com/affiliates/2574750-dateless.cdgQkCn",
-      petPolicy: `
-          One dog under 25 lbs allowed
-          $200 pet fee per stay
-          Must be crated when left alone
-          Up-to-date vaccination records required
-          No cats allowed
-      `
-
-    }
-
-    ,
-    {
-      id: 9,
-      rank: 9,
-      rating: 5,
-      reviews: 61,
-      title: "Cutest Cottage in Crystal Beach! Private Pool, Tesla/EV Charger, Close to Beach",
-      description: `
-          Welcome to Sandy Toes, an updated 2-bedroom, 2-bath cottage in the heart of Crystal Beach, Destin. Just a block from the white sand beach, this charming home offers a perfect blend of coastal elegance and modern amenities.
-          
-          Enjoy a private backyard oasis featuring a pool (heating available), screened-in porch, and lush landscaping. Inside, find two King bedrooms, an open living and dining space, and a fully stocked custom kitchen with stainless steel appliances. A 50-amp Tesla/EV charger is available for eco-conscious travelers.
-          
-          Ideal for small families or couples, this pet-friendly retreat includes beach gear, high-speed WiFi, and Smart TVs in every room. Conveniently located near top shopping, dining, and attractions, Sandy Toes is your perfect Crystal Beach getaway!
-      `,
-      shortDescription: "Charming 2-bedroom cottage with private pool & EV charger, steps to the beach.",
-      price: "From $471/night",
-      bedrooms: 2,
-      bathrooms: 2,
-      sqft: 1200,
-      maxGuests: 6,
-      maxPets: 2,
-      petFee: "$300 per pet per stay",
-      amenities: [
-          "Private Heated Pool",
-          "Two King Bedrooms",
-          "EV Charger (Tesla & Universal J1772)",
-          "Fully Equipped Custom Kitchen",
-          "Large Screened-in Porch",
-          "Beach Gear Included (Chairs, Umbrella, Cart)",
-          "High-Speed WiFi & Smart TVs",
-          "Full-Size Washer/Dryer",
-          "Outdoor Gas Grill & Dining Area",
-          "Parking for 3 Vehicles"
-      ],
-      images: [
-          {
-              url: "/images/property9-main.jpg",
-              alt: "Cozy beach cottage with private pool near Crystal Beach"
-          },
-          {
-              url: "/images/property-sandytoes-living.jpg",
-              alt: "Bright and airy living room with coastal decor"
-          }
-      ],
-      location: {
-          area: "Crystal Beach, Destin, FL",
-          walkToBeach: "5 Minutes",
-          nearbyAttractions: [
-              "Destin Commons (7 min walk)",
-              "Henderson Beach State Park (8 min walk)",
-              "Silver Sands Premium Outlets (15 min drive)"
-          ]
-      },
-      vrboLink: "https://vrbo.com/affiliates/1321317-dateless.KaJr5Nd",
-      petPolicy: `
-          Up to 2 dogs allowed (under 50 lbs each)
-          $300 pet fee per pet, per stay
-          Must be crated when left alone
-          No cats allowed
-          Guests responsible for cleaning up after pets
-      `
-      
-    }
-
-    ,
-    {
-      id: 10,
-      rank: 10,
-      rating: 5,
-      reviews: 156,
-      title: "'Sand Dollar' Gorgeous 6 Bed, Beach Service, Heated Pool & 6 Seat Golf cart!",
-      description: `
-          Welcome to "Sand Dollar," your luxurious 6-bedroom, 4-bath retreat in Crystal Beach, Destin. Just a short walk from the pristine shoreline, this home offers everything you need for an unforgettable beach getaway.
-          
-          Relax in style with an oversized private heated pool, spacious outdoor dining areas, and a lush backyard with a rainfall outdoor shower. The home includes a 6-seat golf cart, complimentary beach service with commercial-grade chairs and umbrellas (March-October), and a fully stocked chef’s kitchen with quartzite countertops and high-end KitchenAid appliances.
-          
-          Designed for comfort and elegance, Sand Dollar features an open floor plan, two master suites, and a charming guest cottage with a kitchenette. The home is fully stocked with beach gear, bikes, ping pong, and cornhole for endless entertainment. 
-          
-          Conveniently located near shopping, dining, and attractions, this pet-friendly home is the perfect spot for family vacations or group getaways in Destin!
-      `,
-      shortDescription: "Luxury 6-bedroom beach retreat with private heated pool & golf cart, steps to the beach.",
-      price: "From $962/night",
-      bedrooms: 6,
-      bathrooms: 4,
-      sqft: 4000,
-      maxGuests: 16,
-      maxPets: 2,
-      petFee: "$300 per pet per stay",
-      amenities: [
-          "Private Heated Pool",
-          "6-Seat Golf Cart Included",
-          "Beach Service (March-October)",
-          "Two Master Suites",
-          "Fully Equipped Chef’s Kitchen",
-          "Guest Cottage with Kitchenette",
-          "Bikes, Ping Pong, & Cornhole",
-          "High-Speed WiFi & Smart TVs",
-          "Outdoor Gas Grill & Dining Area",
-          "Parking for 3 Vehicles"
-      ],
-      images: [
-          {
-              url: "/images/property10-main.jpg",
-              alt: "Elegant beach home with private pool and lush landscaping"
-          },
-          {
-              url: "/images/property-sanddollar-living.jpg",
-              alt: "Spacious and beautifully designed living room with coastal decor"
-          }
-      ],
-      location: {
-          area: "Crystal Beach, Destin, FL",
-          walkToBeach: "3 Minutes",
-          nearbyAttractions: [
-              "Destin Commons (5 min drive)",
-              "Henderson Beach State Park (8 min walk)",
-              "Silver Sands Premium Outlets (15 min drive)"
-          ]
-      },
-      vrboLink: "https://vrbo.com/affiliates/35092-dateless.yXVSdex",
-      petPolicy: `
-          Up to 2 dogs allowed (prior approval required)
-          $300 pet fee per pet, per stay
-          Must be crated when left alone
-          No cats allowed
-          Guests responsible for cleaning up after pets
-      `
-      
-
-    }
-    ,
-    {
-      id: 11,
-      rank: 11,
-      rating: 4.9,
-      reviews: 127,
-      title: "Just a 60 Second Walk to Sugar White Sands!",
-      description: `
-          Welcome to our beautiful 4-bedroom, 2-bath Destin Beach home, perfectly located in the charming Crystal Beach neighborhood, just steps from the sugar-white sands and turquoise waters.
-          
-          This cozy and spacious retreat features an open floor plan with a fully equipped kitchen, a comfortable family room with a 50'' plasma TV, and multiple outdoor spaces, including a deck, balcony, and patio. The home comfortably sleeps up to 10 guests and includes a tower loft with breathtaking 360-degree views of the Gulf and Destin area.
-          
-          Enjoy the convenience of being just three homes away from the beach, making it easy to access the shoreline without waiting for shuttles or packing up for the day. The property is also minutes from Destin Commons, shopping, restaurants, water parks, and family-friendly attractions. 
-          
-          Whether you're planning a family vacation or a relaxing beach getaway, this home offers the perfect location and amenities for your stay.
-      `,
-      shortDescription: "Cozy 4-bedroom beach home, steps to the sand with a spacious layout & great location.",
-      price: "From $215/night",
-      bedrooms: 4,
-      bathrooms: 2,
-      sqft: "Not specified",
-      maxGuests: 10,
-      maxPets: "With prior approval",
-      petFee: "Varies; approval required",
-      amenities: [
-          "Steps to the Beach (60-Second Walk)",
-          "Spacious Open Floor Plan",
-          "Fully Equipped Kitchen",
-          "Tower Loft with Gulf Views",
-          "Outdoor Deck & Patio",
-          "Comfortable Living Room with 50'' TV",
-          "Pet-Friendly (With Approval)",
-          "Parking for 3 Vehicles"
-      ],
-      images: [
-          {
-              url: "/images/property11-main.jpg",
-              alt: "Exterior of cozy beach home just steps from the ocean"
-          },
-          {
-              url: "/images/property-barracuda-living.jpg",
-              alt: "Spacious living room with comfortable seating and TV"
-          }
-      ],
-      location: {
-          area: "Crystal Beach, Destin, FL",
-          walkToBeach: "60 Seconds",
-          nearbyAttractions: [
-              "Destin Commons (12 min walk)",
-              "Henderson Beach State Park (8 min walk)",
-              "Silver Sands Premium Outlets (15 min drive)"
-          ]
-      },
-      vrboLink: "https://vrbo.com/affiliates/212033-dateless.Lcv9qIP",
-      petPolicy: `
-          Pets may be allowed with prior approval
-          Additional pet fees may apply
-          Guests responsible for cleaning up after pets
-      `
-      
-
-    }
+    vrboLink: "https://vrbo.com/affiliate/BarbiePortA",
+    petPolicy: `
+    Maximum 2 pets  
+    $95 pet fee per pet per stay  
+    Must be approved (submit weight, breed, and age for approval)  
+    Pets must be house-trained  
+    Current vaccination records required  
+    `,
+}
 ,
-    {
-      id: 12,
-      rank: 12,
-      rating: 4.8,
-      reviews: 89,
-      title: "The Great Escape - Private Pool, Steps to the Beach!",
-      description: `
-          Newly renovated, "The Great Escape" is a charming 3-bedroom, 2-bath beach cottage located in Destin's Crystal Beach community. Just 1.5 blocks from the pristine Emerald Coast beaches, this home is an ideal retreat for families and couples alike.
-          
-          Enjoy vaulted ceilings and a retractable glass wall that seamlessly blends indoor and outdoor living, overlooking your private pool and lush backyard. The home features two king bedrooms, a bunk room perfect for kids, and a fully equipped kitchen with quartz countertops and stainless appliances. 
-          
-          Conveniently situated near Henderson Beach State Park, Destin Commons, restaurants, and family attractions, this beach cottage offers everything you need for a relaxing and memorable getaway.
-      `,
-      shortDescription: "Charming 3-bedroom cottage with a private pool, steps to the beach, and modern amenities.",
-      price: "From $362/night",
-      bedrooms: 3,
-      bathrooms: 2,
-      sqft: "1,450 sq ft",
-      maxGuests: 8,
-      maxPets: "Dogs under 50 lbs (limit 2, with approval)",
-      petFee: "$200 cleaning fee; $150 pool heating fee (optional)",
-      amenities: [
-          "Private Heated Pool & Patio",
-          "Fully Equipped Kitchen with Quartz Countertops",
-          "Spacious Open Floor Plan with Vaulted Ceilings",
-          "Outdoor Dining & Lounge Area",
-          "Pet-Friendly (Dogs under 50 lbs)",
-          "Walking Distance to the Beach (1.5 Blocks)",
-          "Washer & Dryer for Guest Use",
-          "High-Speed WiFi & Smart TVs"
-      ],
-      images: [
-          {
-              url: "/images/property12-main.jpg",
-              alt: "Private pool and lush backyard with lounge seating"
-          },
-          {
-              url: "/images/property-greatescape-living.jpg",
-              alt: "Spacious living room with vaulted ceilings and modern furnishings"
-          }
-      ],
-      location: {
-          area: "Crystal Beach, Destin, FL",
-          walkToBeach: "7-minute walk (1.5 blocks)",
-          nearbyAttractions: [
-              "Henderson Beach State Park (6 min walk)",
-              "Destin Commons (5 min drive)",
-              "Big Kahuna's Water Park (10 min drive)"
-          ]
-      },
-      vrboLink: "https://vrbo.com/affiliate/DjlOAQy",
-      petPolicy: `
-          Dogs under 50 lbs allowed (limit 2, with approval)
-          $200 cleaning fee applies
-          Pool heating available for $150 per week (upon request)
-          Guests responsible for cleaning up after pets
-      `      
-    }
+{
+    id: 4,
+    rank: 4,
+    rating: 5,
+    reviews: 43,
+    title: "Scottsdoll Dreamhouse | Walk to Old Town | Heated Pool & Insta-Worthy Decor",
+    description: `
+    💖 **Scottsdale’s Ultimate Barbie Dreamhouse!**  
+    Step into **Scottsdoll Dreamhouse**, an **ultra-glam, Instagram-worthy** vacation home **just minutes from Old Town Scottsdale**. This **4-bedroom, 2-bathroom luxury retreat sleeps 12 guests** and features a **heated pool, lifeguard chair, custom Barbie-inspired decor, and a private photo booth**—designed for the **ultimate bachelorette party, girls’ trip, or getaway!**  
+
+    🎉 **Unbeatable Location & Luxe Amenities**  
+    - **Walkable to Old Town Scottsdale’s nightlife & shopping**  
+    - **Resort-Style Backyard**: Heated pool, turf, built-in grill, outdoor bar, lifeguard chair  
+    - **Photo-Worthy Spaces**: Lip-shaped sofa, neon signs, vintage Barbie gallery  
+    - **Private "Scottsdoll" Photo Booth**: Pose inside a life-sized pink doll box!  
+
+    ✨ **Why You’ll Love It**  
+    - **Glamorous Barbiecore interiors**  
+    - **Spacious bedrooms & Smart TVs**  
+    - **Fully stocked kitchen & top-tier appliances**  
+
+    Book your **Scottsdale Dreamhouse** today and **experience the most Insta-famous bachelorette rental!** 🎀🏡💖  
+    `,
+    shortDescription: "Glamorous 4-bedroom Barbie Dreamhouse in Scottsdale with a heated pool, photo booth, pink-themed interiors, and walkable access to Old Town nightlife.",
+    price: "From $499/night",
+    bedrooms: 4,
+    bathrooms: 2,
+    sqft: 1834,
+    maxGuests: 12,
+    maxPets: 0,
+    petFee: "N/A",
+    amenities: [
+        "Private Heated Pool & Outdoor Bar",
+        "Life-Sized 'Scottsdoll' Photo Booth",
+        "High-Speed WiFi",
+        "Fully-Stocked Kitchen & Bar Area",
+        "Luxury Barbie-Inspired Interiors",
+        "Lip-Shaped Sofa & Custom Neon Signs",
+        "Outdoor Turf, Grill & Lifeguard Chair",
+        "Giant Jenga, Pink Cornhole & Ping-Pong",
+        "Smart TVs in Every Room",
+        "Washer & Dryer",
+        "Walkable to Old Town Scottsdale",
+        "Quiet Family-Friendly Neighborhood"
+    ],
+    images: [
+        {
+            url: "/images/property4-main.jpg",
+            alt: "Scottsdoll Dreamhouse exterior with heated pool and lifeguard chair"
+        },
+        {
+            url: "/images/scottsdoll-living-room.jpg",
+            alt: "Living room with lip-shaped sofa, neon signs, and Barbiecore decor"
+        },
+        {
+            url: "/images/scottsdoll-backyard.jpg",
+            alt: "Resort-style backyard with heated pool, turf, and pink cornhole game"
+        },
+        {
+            url: "/images/scottsdoll-photo-booth.jpg",
+            alt: "Life-sized pink 'Scottsdoll' photo booth for Instagrammable moments"
+        }
+    ],
+    location: {
+        area: "Scottsdale, AZ",
+        walkToBeach: "N/A",
+        nearbyAttractions: [
+            "Scottsdale Museum of Contemporary Art (11 min walk)",
+            "Scottsdale Stadium (12 min walk)",
+            "Old Town Scottsdale (2 min drive)",
+            "Camelback Mountain (8 min drive)"
+        ]
+    },
+    vrboLink: "https://vrbo.com/affiliate/ScottsdollDreamhouse",
+    petPolicy: `
+    No pets allowed  
+    Service animals permitted  
+    `
+}
+,
+{
+    id: 5,
+    rank: 5,
+    rating: 4.9,
+    reviews: 8,
+    title: "Barbie’s Beach House | Ocean Lakes | Golf Cart + Water Park Access",
+        description: `
+        💖 **Barbie’s Beach House – A Dreamy Ocean Lakes Getaway!**  
+        Stay in this **2BR/2BA pink paradise** with a **free golf cart, beach access, & Ocean Lakes’ water park!** 🌊🏖️  
+    
+        🎀 **Highlights:**  
+        - **Barbie-Themed Decor** + Life-Size **Photo Box** 📸💗  
+        - **Golf Cart Included** – Explore in style! 🚗  
+        - **Fully-Equipped Kitchen** (All Pink Appliances!) 🍳  
+        - **Private Porch, BBQ Grill & Smart TVs** 📺🔥  
+        - **Access to Pools, Lazy River, Mini Golf & More!** 🎟️  
+    
+        📍 **Great Location:**  
+        - **12-min walk** to Ocean Lakes Beach 🏖️  
+        - **7-min drive** to The Market Common 🛍️  
+        - **10-min drive** to Myrtle Beach Intl. Airport ✈️  
+    
+        🚫 **No Pets | 🚭 No Smoking | 🎉 Bachelorette-Friendly**  
+        **Book Now** & Live Your **Barbie Beach Dream!** 💕🏡✨  
+        `,
+    shortDescription: "Stay at Barbie’s Beach House in Ocean Lakes! A 2-bedroom, 2-bath pink paradise with a golf cart, beach access, and Ocean Lakes’ water park.",
+    price: "From $249/night",
+    bedrooms: 2,
+    bathrooms: 2,
+    sqft: 1000,
+    maxGuests: 6,
+    maxPets: 0,
+    petFee: "N/A",
+    amenities: [
+        "Complimentary Golf Cart",
+        "Ocean Lakes Water Park & Pools",
+        "Fully-Equipped Kitchen (All Pink Appliances!)",
+        "Barbie Photo Box for Fun Pics",
+        "Private Porch & Outdoor Dining",
+        "Smart TVs & High-Speed WiFi",
+        "Steps from Beach & Campground Attractions",
+        "Outdoor BBQ Grill",
+        "24/7 Security in Gated Community",
+        "Mini Golf, Lazy River & Splash Zone Access",
+        "Walkable to Dining & Shops"
+    ],
+    images: [
+        {
+            url: "/images/property5-main.jpg",
+            alt: "Barbie's Beach House in Ocean Lakes with a pink golf cart"
+        },
+        {
+            url: "/images/barbie-themed-living-room.jpg",
+            alt: "Living room with pink decor, neon signs, and Barbie-themed accents"
+        },
+        {
+            url: "/images/barbie-photo-box.jpg",
+            alt: "Life-sized Barbie photo box inside the beach house"
+        },
+        {
+            url: "/images/ocean-lakes-waterpark.jpg",
+            alt: "Ocean Lakes Family Campground water park and lazy river"
+        }
+    ],
+    location: {
+        area: "Myrtle Beach, SC",
+        walkToBeach: "12-minute walk",
+        nearbyAttractions: [
+            "Ocean Lakes Beach (12 min walk)",
+            "Myrtle Beach State Park (3 min drive)",
+            "The Market Common (7 min drive)",
+            "Family Kingdom Amusement Park (10 min drive)"
+        ]
+    },
+    vrboLink: "https://vrbo.com/affiliate/BarbiesBeachHouseOceanLakes",
+    petPolicy: `
+    No pets allowed  
+    No smoking inside the home  
+    Must be 21+ to drive the golf cart  
+    Bachelorette parties allowed 🎉  
+    `,
+}
+,
+{
+    id: 6,
+    rank: 6,
+    rating: 5.0,
+    reviews: 1,
+    title: "The Pink Paloma | Luxurious Barbie-Inspired Villa | Palm Springs",
+    description: `
+    💖 **The Pink Paloma – Palm Springs’ Ultimate Barbie-Inspired Retreat!**  
+    Experience **mid-century modern luxury** with a **heated pool, hot tub, & putting green** in this **stunning pink paradise.** 🌵🌴  
+
+    🎀 **Highlights:**  
+    - **Chic Barbie-Themed Decor** 🎀  
+    - **Heated Pool, Hot Tub & Mountain Views** 🌅  
+    - **Putting Green & Outdoor Lounge Spaces** ⛳  
+    - **Fully-Equipped Kitchen & Designer Interiors** 🍽️  
+    - **Prime Location – Walk to Shops & Restaurants!** 🛍️  
+
+    📍 **Perfect Palm Springs Location:**  
+    - **8-min walk** to Palm Springs Visitor Center 🌴  
+    - **5-min drive** to Downtown & Art Museum 🎭  
+    - **14-min drive** to Palm Springs Intl. Airport ✈️  
+
+    🏡 **Pet-Friendly | Events Allowed | Book Now for a Dreamy Getaway!**  
+    `,
+    shortDescription: "Stay at The Pink Paloma, a luxurious Barbie-inspired Palm Springs villa with a heated pool, hot tub, putting green, and mid-century modern design.",
+    price: "From $349/night",
+    bedrooms: 3,
+    bathrooms: 2,
+    sqft: 1344,
+    maxGuests: 6,
+    maxPets: 1,
+    petFee: "$75 per stay",
+    amenities: [
+        "Heated Pool & Hot Tub",
+        "Putting Green & Outdoor Lounge",
+        "Fully-Equipped Kitchen",
+        "Luxury Designer Interiors",
+        "Mid-Century Modern Decor",
+        "Pet-Friendly",
+        "Smart TVs & High-Speed WiFi",
+        "Private Porch & Mountain Views",
+        "Prime Location – Walk to Shops & Dining"
+    ],
+    images: [
+        {
+            url: "/images/property6-main.jpg",
+            alt: "The Pink Paloma, a Barbie-inspired villa with a heated pool"
+        },
+        {
+            url: "/images/palm-springs-living-room.jpg",
+            alt: "Bright living room with pink decor and mid-century modern furniture"
+        },
+        {
+            url: "/images/putting-green.jpg",
+            alt: "Outdoor putting green with lounge chairs and desert landscaping"
+        },
+        {
+            url: "/images/palm-springs-mountain-views.jpg",
+            alt: "Heated pool with mountain views in Palm Springs"
+        }
+    ],
+    location: {
+        area: "Palm Springs, CA",
+        walkToShops: "8-minute walk",
+        nearbyAttractions: [
+            "Palm Springs Visitor Center (8 min walk)",
+            "Downtown Palm Springs (5 min drive)",
+            "Palm Springs Art Museum (5 min drive)",
+            "Palm Springs Aerial Tramway (10 min drive)"
+        ]
+    },
+    vrboLink: "https://vrbo.com/affiliate/ThePinkPalomaPalmSprings",
+    petPolicy: `
+    Small dogs allowed (1 pet max) 🐶  
+    $75 pet fee per stay  
+    No smoking 🚭  
+    Events allowed 🎉 (Max 10 guests)  
+    `,
+}
+,
+{
+    id: 7,
+    rank: 7,
+    rating: 5.0,
+    reviews: 17,
+    title: "The Dream House Hideaway | Barbie Pool | Walk to Mattel Adventure Park",
+    description: `
+    💖 **The Ultimate Barbie-Inspired Escape – 1 Mile from Mattel Adventure Park!**  
+    Stay in a **glamorous, Barbie-themed retreat** with **a private pool, volleyball court, & Instagram-worthy decor.** 🌴🎀  
+
+    🎀 **Dreamy Features:**  
+    - **Barbie-Inspired Interiors & Photo Booth** 📸  
+    - **Private Pool, Volleyball Court & Fire Pit** 🔥🏐  
+    - **Fully-Equipped Kitchen & Spacious Living Areas** 🍽️  
+    - **4 Bedrooms, Sleeps 8 Comfortably** 🏡  
+    - **Pet-Friendly & Walk to Stadiums & Westgate!** 🐶  
+
+    📍 **Perfect Glendale Location:**  
+    - **16-min walk** to State Farm Stadium 🏈  
+    - **1-mile** to Mattel Adventure Park 🎡  
+    - **3-min drive** to Westgate Entertainment District 🍹🛍️  
+
+    🏡 **Book Now for the Ultimate Barbie Getaway!**  
+    `,
+    shortDescription: "Stay at The Dream House Hideaway, a stylish Barbie-inspired retreat with a private pool, volleyball court, and prime Glendale location near Mattel Adventure Park.",
+    price: "From $329/night",
+    bedrooms: 4,
+    bathrooms: 2,
+    sqft: 1700,
+    maxGuests: 8,
+    maxPets: 2,
+    petFee: "$50 per pet, per stay",
+    amenities: [
+        "Private Pool & Lounge Area",
+        "Outdoor Volleyball Court",
+        "Fire Pit & BBQ Grill",
+        "Barbie-Themed Decor & Photo Booth",
+        "Fully-Equipped Kitchen",
+        "Pet-Friendly (Under 50 lbs)",
+        "Smart TVs & High-Speed WiFi",
+        "Spacious Patio & Outdoor Seating",
+        "Prime Location – Walk to Stadiums & Shopping"
+    ],
+    images: [
+        {
+            url: "/images/property7-main.jpg",
+            alt: "The Dream House Hideaway with a private pool and lounge area"
+        },
+        {
+            url: "/images/barbie-living-room.jpg",
+            alt: "Barbie-themed living room with stylish pink decor and plush seating"
+        },
+        {
+            url: "/images/volleyball-court.jpg",
+            alt: "Outdoor volleyball court with lounge chairs and pink netting"
+        },
+        {
+            url: "/images/dreamhouse-backyard.jpg",
+            alt: "Private pool with fire pit and stylish outdoor seating"
+        }
+    ],
+    location: {
+        area: "Glendale, AZ",
+        walkToStadiums: "16-minute walk",
+        nearbyAttractions: [
+            "State Farm Stadium (16-min walk)",
+            "Mattel Adventure Park (1 mile)",
+            "Westgate Entertainment District (3-min drive)",
+            "Desert Diamond Arena (16-min walk)"
+        ]
+    },
+    vrboLink: "https://vrbo.com/affiliate/TheDreamHouseHideaway",
+    petPolicy: `
+    Dogs under 50 lbs allowed (2 pets max) 🐶  
+    $50 per pet, per stay  
+    No smoking indoors 🚭  
+    Events not allowed ❌  
+    `,
+}
+,
+{
+    id: 8,
+    rank: 8,
+    rating: 5.0,
+    reviews: 8,
+    title: "Exclusive Barbie Themed Condo | Downtown Chattanooga | Hot Tub & Luxe Decor",
+    description: `
+    💖 **Live Your Barbie Dream in Chattanooga's Most Stylish Condo!**  
+    Step into a **one-of-a-kind, luxury Barbie-inspired condo** in the heart of Chattanooga’s Southside. With **Instagram-worthy interiors, a private hot tub, and chic pink decor**, this is the ultimate girls’ getaway, bachelorette retreat, or family vacation spot.  
+
+    🎀 **Dreamy Features:**  
+    - **Barbie-Inspired Interiors & Luxe Pink Decor** 🎀  
+    - **Private Hot Tub & Cozy Fire Ambiance** 🔥🛁  
+    - **3 Bedrooms, Sleeps 10 Comfortably** 🏡  
+    - **On-Site Steakhouse & Cocktail Lounge** 🍸🥩  
+    - **Fully-Equipped Kitchen & Spacious Living Area** 🍽️  
+
+    📍 **Prime Downtown Chattanooga Location:**  
+    - **14-min walk** to Chattanooga Choo Choo 🚂  
+    - **3-min drive** to Finley Stadium 🏈  
+    - **5-min drive** to Tennessee Aquarium 🐠  
+    - **Surrounded by Top Restaurants, Bars & Nightlife!** 🍹🎶  
+
+    🏡 **Book Now for an Unforgettable Barbie Experience!** 💖  
+    `,
+    shortDescription: "Experience luxury at Chattanooga’s exclusive Barbie-themed condo, featuring a private hot tub, pink glam decor, and a prime downtown location.",
+    price: "From $399/night",
+    bedrooms: 3,
+    bathrooms: 3.5,
+    sqft: "Spacious Multi-Level Condo",
+    maxGuests: 10,
+    amenities: [
+        "Private Hot Tub & Fire Pit",
+        "Glamorous Barbie Decor & Photo-Worthy Spaces",
+        "Luxury Kitchen with High-End Appliances",
+        "In-Unit Washer & Dryer",
+        "Spacious Living & Dining Areas",
+        "On-Site Steakhouse & Cocktail Lounge",
+        "Prime Location Near Downtown Attractions",
+        "Fast WiFi & Smart TVs in Every Room",
+        "Free Parking Available"
+    ],
+    images: [
+        {
+            url: "/images/property8-main.jpg",
+            alt: "Barbie-themed luxury condo in Chattanooga"
+        },
+        {
+            url: "/images/barbie-living-room.jpg",
+            alt: "Stylish pink Barbie-inspired living room with plush decor"
+        },
+        {
+            url: "/images/hot-tub-barbie-condo.jpg",
+            alt: "Private hot tub with mood lighting and city views"
+        },
+        {
+            url: "/images/barbie-bedroom.jpg",
+            alt: "Barbie glam bedroom with pink accents and luxury bedding"
+        }
+    ],
+    location: {
+        area: "Downtown Chattanooga, TN",
+        nearbyAttractions: [
+            "Chattanooga Choo Choo (14-min walk)",
+            "University of Tennessee Chattanooga (3-min drive)",
+            "Tennessee Aquarium (5-min drive)",
+            "Finley Stadium (3-min drive)",
+            "Surrounded by Top Restaurants & Bars"
+        ]
+    },
+    vrboLink: "https://vrbo.com/affiliate/BarbieCondoChattanooga",
+    petPolicy: `
+    🚫 No Pets Allowed  
+    🚭 No Smoking Indoors  
+    🎉 Events Allowed (Max 25 Guests)  
+    🚫 No Shoes Inside – Complimentary Booties Provided  
+    `,
+}
+,
+{
+    id: 9,
+    rank: 9,
+    rating: 5.0,
+    reviews: 115,
+    title: "Barbie's Beach House | Steps to Beach | Heated Pool | 30A Seaside Escape",
+    description: `
+    🏖️ **Your Perfect Beachfront Getaway on 30A!**  
+    Welcome to **Barbie’s Beach House**, a beautifully designed coastal retreat **just steps from the beach** with a **private heated pool** and **charming seaside decor**. Nestled near Seaside on **scenic 30A**, this stylish cottage offers the **perfect mix of relaxation, privacy, and beachside fun**.  
+
+    🌊 **Why You’ll Love It:**  
+    - **Private Heated Pool & Oversized Hammock** 🌴🏊‍♀️  
+    - **3 Spacious Bedrooms + Sunroom with Twin Beds** 🏡  
+    - **Gourmet Kitchen with Viking Appliances** 🍳  
+    - **Exclusive Private Beach Access (No Crowds!)** 🏖️  
+    - **Bike to Seaside & Top 30A Restaurants** 🚴  
+
+    📍 **Prime 30A Location – Walk Everywhere!**  
+    - **4-min walk** to Seagrove Beach East 🌊  
+    - **3-min drive** to Seaside Beach & Shops 🛍️  
+    - **5-min drive** to Grayton Beach State Park 🌿  
+    - **Near Watercolor & Local Restaurants 🍽️**  
+
+    🏡 **Book Your Dream Beach Escape Today!** 🌞  
+    `,
+    shortDescription: "Charming coastal cottage on 30A with a private heated pool, Viking kitchen, and exclusive beach access – just steps from Seaside.",
+    price: "From $499/night",
+    bedrooms: 3,
+    bathrooms: 3,
+    sqft: "1,800 sq. ft.",
+    maxGuests: 6,
+    amenities: [
+        "Private Heated Pool & Patio",
+        "Exclusive Beach Access (Steps Away!)",
+        "Fully Equipped Gourmet Kitchen",
+        "Luxury Bedrooms with Ensuite Baths",
+        "Spacious Living & Dining Area",
+        "Bike Rentals & Walking Distance to Seaside",
+        "Fast WiFi & Smart TVs",
+        "Washer & Dryer",
+        "Outdoor Grill & Dining Area"
+    ],
+    images: [
+        {
+            url: "/images/property9-main.jpg",
+            alt: "Charming beach cottage near Seaside with palm trees and private pool"
+        },
+        {
+            url: "/images/beach-access-30a.jpg",
+            alt: "Private beach access just steps from Barbie's Beach House"
+        },
+        {
+            url: "/images/barbies-kitchen-viking.jpg",
+            alt: "Luxury kitchen with Viking appliances and stylish beach decor"
+        },
+        {
+            url: "/images/private-heated-pool.jpg",
+            alt: "Private heated pool with lush landscaping and outdoor seating"
+        }
+    ],
+    location: {
+        area: "Santa Rosa Beach, FL – 30A",
+        nearbyAttractions: [
+            "Seagrove Beach East (4-min walk)",
+            "Seaside Beach & Shops (3-min drive)",
+            "Grayton Beach State Park (5-min drive)",
+            "South Walton Beaches (7-min drive)",
+            "Alys Beach & Rosemary Beach (10-min drive)"
+        ]
+    },
+    vrboLink: "https://vrbo.com/affiliate/BarbiesBeachHouse30A",
+    petPolicy: `
+    🚫 No Pets Allowed  
+    🚭 No Smoking Indoors  
+    🚫 No Large Gatherings or Events  
+    🏡 Guests Only – Pool & Home Exclusive to Renters  
+    `,
+}
   ];
   
   
